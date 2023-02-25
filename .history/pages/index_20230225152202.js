@@ -113,7 +113,6 @@ export default function Home() {
     // return () => {
     //   grabWeather.current = true;
     // }
-    fetchWeather()
   }, [])
 
   const current = new Date();
